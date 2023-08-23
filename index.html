@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/darkmode.css">
+    <title>Organizador de Tarefas</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Lista de Tarefas</h1>
+        <button class="darkMode"><img src="./src/img/moon.svg" id="moon" alt="Dark Mode"><img src="./src/img/sun.svg" id="sun" alt="Light Mode"></button>
+    </header>
+    <main><span></span>
+        <div class="cadastroTarefa">
+            <input type="text" name="texto" id="texto" placeholder="Digite a tarefa aqui." class="texto" required>
+            <button id="cadastrar" class="cadastrar">Cadastrar</button>
+        </div>
+        <div class="lista">
+            <ul id="listagem">
+            </ul>
+        </div>
+        <div class="aviso">
+        </div>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
